@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+      <meta charset="utf-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+      <meta name="description" content="Napier University Quiz" />
+      <meta name="author" content="Lewis Dickson" />
+      <title>Napier Quiz</title>
+
+        <!-- Favicon-->
+        <link rel="icon" type="image/png" href="assets/favicon-32x32.png"/>
+
+        <!-- CDN delivered bootstrap CSS file-->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+        <!-- Custom CSS-->
+        <link href="css/styles.css" rel="stylesheet" />
+    </head>
+    <body>
+        <!-- Responsive navbar-->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container px-5 nav-container">
+                <a class="navbar-brand" href="index.html">Napier University Quiz</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                      <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                      <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+                      <li class="nav-item"><a class="nav-link" href="quiz.html">Quiz</a></li>
+                  </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- Page Content-->
+    <div class="col-md-12 mb-5">
+        <div class="card h-100">
+            <div class="card-body">
+                <h2 class="card-title">Question 1: When was Napier founded?</h2>
+                <ul class="choices">
+                  <li><label><input type="radio" name="question0" value="1"><span>1964</span></label></li>
+                  <li><label><input type="radio" name="question0" value="2"><span>1867</span></label></li>
+                  <li><label><input type="radio" name="question0" value="3"><span>2011</span></label></li>
+                  <li><label><input type="radio" name="question0" value="4"><span>1970</span></label></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-12 mb-5">
+        <div class="card h-100">
+            <div class="card-body">
+                <h2 class="card-title">Question 2: Who is Napier named after?</h2>
+                <ul class="choices">
+                  <li><label><input type="radio" name="question1" value="1"><span>Buzz Lightyear</span></label></li>
+                  <li><label><input type="radio" name="question1" value="2"><span>Fred Flintstone</span></label></li>
+                  <li><label><input type="radio" name="question1" value="3"><span>John Napier</span></label></li>
+                  <li><label><input type="radio" name="question1" value="4"><span>Bugs Bunny</span></label></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-12 mb-5">
+        <div class="card h-100">
+            <div class="card-body">
+                <h2 class="card-title">Question 3: What does the acronym ENSA stand for?</h2>
+                <ul class="choices">
+                  <li><label><input type="radio" name="question2" value="1"><span>Edinburgh Never Smells Adequate</span></label></li>
+                  <li><label><input type="radio" name="question2" value="2"><span>Edinburgh Napier Students Association</span></label></li>
+                  <li><label><input type="radio" name="question2" value="3"><span>Edinburgh Nodding Stupidly Association</span></label></li>
+                  <li><label><input type="radio" name="question2" value="4"><span>Excellent New Silly Acronym </span></label></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-12 mb-5">
+        <div class="card h-100">
+            <div class="card-body">
+                <h2 class="card-title">Question 4: How many Napier Campuses are there? </h2>
+                <ul class="choices">
+                  <li><label><input type="radio" name="question3" value="1"><span>2</span></label></li>
+                  <li><label><input type="radio" name="question3" value="2"><span>1</span></label></li>
+                  <li><label><input type="radio" name="question3" value="3"><span>6</span></label></li>
+                  <li><label><input type="radio" name="question3" value="4"><span>3</span></label></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-12 mb-5">
+        <a class="btn btn-primary return-score" onclick="returnScore()">View Results!</a>
+        <span id="myresults" class="results-box">Your score is: <span id="score"></span></span>
+    </div>
+
+    <!-- Footer-->
+    <div class="col-md-12 py-3 bg-dark">
+        <p class="m-0 text-center text-white">40536858 - Lewis Dickson</p>
+    </div>
+
+        <!-- Custom Javascript-->
+        <script src="js/scripts.js"></script>
+    </body>
+</html>
